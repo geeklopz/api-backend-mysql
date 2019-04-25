@@ -1,0 +1,25 @@
+{
+  "name": "api-backend-mysql",
+  "version": "1.0.0",
+  "description": "api-backend-mysql",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Danilo Caetano <danilocaetano.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "sequelize-cli": "^5.4.0"
+  }
+}
